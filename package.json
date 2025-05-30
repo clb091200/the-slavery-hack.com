@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+  "preinstall": "npm config set production false"
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postinstall": "npm install --no-save typescript @types/react @types/node"
   },
   "dependencies": {
     "next": "^14.2.3",
