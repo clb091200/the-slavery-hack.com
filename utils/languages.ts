@@ -16,7 +16,7 @@ export const LANGUAGES = [
   { code: "ig", name: "Igbo", native: "Igbo", flag: "🇳🇬" },
   { code: "it", name: "Italian", native: "Italiano", flag: "🇮🇹" },
   { code: "kk", name: "Kazakh", native: "Қазақ", flag: "🇰🇿" },
-  { code: "ku", name: "Kurdish", native: "Kurdî", flag: "🇹🇷" }, // Use custom image if you prefer
+  { code: "ku", name: "Kurdish", native: "Kurdî", flag: "🇹🇷" },
   { code: "lt", name: "Lithuanian", native: "Lietuvių", flag: "🇱🇹" },
   { code: "lv", name: "Latvian", native: "Latviešu", flag: "🇱🇻" },
   { code: "mg", name: "Malagasy", native: "Malagasy", flag: "🇲🇬" },
