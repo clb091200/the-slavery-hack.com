@@ -6,9 +6,9 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string, {
 });
 
 const PRICE_MAP: Record<string, string> = {
-  pdf: "price_123PDF",           // replace with your Stripe Price ID for PDF
-  app: "price_123APP",           // replace with your Stripe Price ID for App
-  bundle: "price_123BUNDLE",     // replace with your Stripe Price ID for Bundle
+  pdf: "price_1RN01qCEuZYY1FhVi8k1jjXu",           // replace with your Stripe Price ID for PDF
+  app: "price_1RN005CEuZYY1FhVcbGDwh3G ",           // replace with your Stripe Price ID for App
+  bundle: "price_1RN04RCEuZYY1FhVNPcUIcYu",     // replace with your Stripe Price ID for Bundle
 };
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
